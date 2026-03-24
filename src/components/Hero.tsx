@@ -44,7 +44,7 @@ export const Hero = () => {
           <div className="relative z-10 animate-float">
              {/* Placeholder for 3D Island Image */}
             <img
-              src="/images/thumbnail.png"
+              src="`${import.meta.env.BASE_URL}images/thumbnail.png}`"
               alt="Chó và mèo ngủ cùng trái tim"
               className="w-full h-auto rounded-[40px] shadow-2xl object-cover aspect-[16/9]"
               referrerPolicy="no-referrer"
